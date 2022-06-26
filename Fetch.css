@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+
+.heading {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-family: constantia;
+}
+
+#cards {
+    display:flex ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    width: 23%;
+    box-shadow: 0 0 4px 3px palevioletred;
+    text-align: center;
+    padding: 1.5em;
+    margin-bottom: 2em;
+    background-color: aliceblue;
+}
+
+.images{
+    width: 80%;
+}
+
+.tittle {
+    font-size: 1.3rem;
+
+}
+
+.email,.id {
+    font-weight:bold ;
+    text-transform: capitalize;
+    margin: 1em;
+    font-size: 1.2rem;
+}
